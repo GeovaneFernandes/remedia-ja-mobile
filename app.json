@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "Remedia Já",
+    "slug": "remedia-ja",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.flowbix.remediaja"
+    },
+    "android": {
+      "package": "com.flowbix.remediaja",
+      "permissions": ["NOTIFICATIONS", "SCHEDULE_EXACT_ALARM"]
+    },
+    "plugins": ["expo-notifications"]
+  }
+}
